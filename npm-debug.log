@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\node\\node.exe',
+1 verbose cli   'F:\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'docs:dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'predocs:dev', 'docs:dev', 'postdocs:dev' ]
+5 info lifecycle vuepress-test@1.0.0~predocs:dev: vuepress-test@1.0.0
+6 silly lifecycle vuepress-test@1.0.0~predocs:dev: no script for predocs:dev, continuing
+7 info lifecycle vuepress-test@1.0.0~docs:dev: vuepress-test@1.0.0
+8 verbose lifecycle vuepress-test@1.0.0~docs:dev: unsafe-perm in lifecycle true
+9 verbose lifecycle vuepress-test@1.0.0~docs:dev: PATH: F:\node\node_modules\npm\bin\node-gyp-bin;G:\sjt\vuepress\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;F:\jdk\bin;F:\apache-maven-3.5.0\bin;F:\python3;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\protobuf\bin;F:\ant\apache-ant-1.10.1\bin;F:\node\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;F:\python3\Scripts;F:\go\bin;F:\conda;F:\putty\;F:\TortoiseSVN\bin;F:\dosbox\DOSBox-0.74;F:\wireshark;E:\scala\bin;F:\openssl;F:\strawberry\c\bin;F:\strawberry\perl\site\bin;F:\strawberry\perl\bin;C:\Program Files (x86)\Google\Chrome\Application;F:\chromedriver_win32;F:\Dart\dart-sdk\bin;F:\flutter-sdk\flutter\bin;F:\Dart\dart-sdk\bin;F:\Microsoft VS Code\bin;F:\v2ray\v2ray-v3.25-windows-64;F:\jre1.8\jre1.8.0_181\bin;C:\Users\shenjiatong\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\shenjiatong\AppData\Roaming\npm;F:\Microsoft VS Code\bin
+10 verbose lifecycle vuepress-test@1.0.0~docs:dev: CWD: G:\sjt\vuepress
+11 silly lifecycle vuepress-test@1.0.0~docs:dev: Args: [ '/d /s /c', 'vuepress dev docs' ]
+12 silly lifecycle vuepress-test@1.0.0~docs:dev: Returned: code: 1  signal: null
+13 info lifecycle vuepress-test@1.0.0~docs:dev: Failed to exec docs:dev script
+14 verbose stack Error: vuepress-test@1.0.0 docs:dev: `vuepress dev docs`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (F:\node\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (F:\node\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid vuepress-test@1.0.0
+16 verbose cwd G:\sjt\vuepress
+17 error Windows_NT 10.0.15063
+18 error argv "F:\\node\\node.exe" "F:\\node\\node_modules\\npm\\bin\\npm-cli.js" "run" "docs:dev"
+19 error node v6.11.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error vuepress-test@1.0.0 docs:dev: `vuepress dev docs`
+22 error Exit status 1
+23 error Failed at the vuepress-test@1.0.0 docs:dev script 'vuepress dev docs'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the vuepress-test package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     vuepress dev docs
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs vuepress-test
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls vuepress-test
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
